@@ -6,6 +6,10 @@ A95458
 Inês Meneses de Castro
 
 ## Resumo
-Para este TPC, utilizou-se o dataset com imagens(fotos atuais das ruas com uma determinada vista e fotos de maquetas antigas das mesmas ruas) e ficheiros XML com informações sobre 60 ruas de Braga fornecido pelo docente.
+Este TPC envolveu a utilização de um conjunto de recursos disponibilizados pelo professor, incluindo um arquivo XML contendo informações sobre 60 ruas em Braga, fotos atuais associadas a cada rua e fotos de esboços desenhados no século XVIII das mesmas ruas. O objetivo foi criar um site que permitisse aos utilizadores consultar e navegar por esta estrutura.
 
-Este dataset foi utilizado para produzir um website que apresenta uma página inicial com um índice das ruas ordenada alfabeticamente. Ao clicarmos numa das ruas, acede-se à página individual da rua onde podemos consultar toda a informação sobre esta. Em cada página também haverá um link para voltar ao índice inicial.
+A página principal do site apresenta uma lista de ruas dispostas em ordem alfabética. 
+
+Ao clicar em uma das ruas listadas, os utilizadores são redirecionados para uma página individual dedicada a essa rua específica. Nessa página, é possível visualizar todas as informações disponíveis sobre a rua. 
+
+Além disso, há um link que permite aos utilizadores retornarem facilmente à página principal do site.
