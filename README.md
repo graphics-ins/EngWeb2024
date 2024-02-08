@@ -20,4 +20,4 @@ Nome: Inês Meneses de Castro
 
 ID: a95458
 
-Fotografia: Fotografia do Aluno
+Fotografia: a95458.png
