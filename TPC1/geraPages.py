@@ -80,6 +80,6 @@ def convert_xml_to_html(source_directory, output_directory):
                 f.write(full_html)
 
 # Example usage:
-source_directory = './MapaRuas/texto'
-output_directory = './ruasSite'
+source_directory = './MapaRuas - MB/texto'
+output_directory = './RuasPages'
 convert_xml_to_html(source_directory, output_directory)
