@@ -13,7 +13,7 @@ def gerar_html_ruas():
         </head>
         <body>
             <div class="w3-card-4">
-                <header class="w3-container w3-purple">
+                <header class="w3-container w3-light-grey">
                     <h3>Ruas de Braga</h3>
                 </header>
                 <div class="w3-container">
@@ -23,8 +23,8 @@ def gerar_html_ruas():
     posHTML = """
                     </ul>
                 </div>
-                <footer class="w3-container w3-purple">
-                    <h5>Gerado por RuasDeBraga::EngWeb2024::A100705</h5>
+                <footer class="w3-container w3-light-grey">
+                    <h5>Gerado por RuasDeBraga::EngWeb2024::A95458</h5>
                 </footer>
             </div>
         </body>
@@ -32,7 +32,7 @@ def gerar_html_ruas():
     """
 
     ruas = []
-    diretorio_xml = './MapaRuas/texto'
+    diretorio_xml = './MapaRuas - MB/texto'
     conteudo = ""
     for nome_arquivo in os.listdir(diretorio_xml):
         if nome_arquivo.endswith('.xml'):
@@ -54,7 +54,7 @@ def gerar_html_ruas():
 
     pagina_html = preHTML + conteudo + posHTML
 
-    with open('./ruasSite/index.html', 'w') as f:
+    with open('./RuasPages/index.html', 'w') as f:
         f.write(pagina_html)
 
 gerar_html_ruas()
