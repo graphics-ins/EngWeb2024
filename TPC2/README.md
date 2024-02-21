@@ -14,6 +14,7 @@ Processar o dataset do mapa virtual:
 <li><a href= "http://localhost:????/c3">Braga</a></li>
 ```
  / -> pág principal
+ 
  /c1 -> pág da cidade c1
 
 Cada Página terá: nome, id, distrito, população, etc e ligações
