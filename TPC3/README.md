@@ -1,7 +1,5 @@
 # Dataset de filmes:
-Neste trabalho, utilizou-se os dados referentes a filmes americanos, disponibilizados num ficheiro json não normalizado e com erros, contendo informação relativa a atores, filmes e gêneros de filmes.
-
-Neste pretende-se porceder à normalização dos dados e sua correção, facilitando depois a geração dinâmica das páginas com a ajuda de um servidor em javascript que responde a pedidos http do tipo GET.
+Neste trabalho, utilizou-se os dados referentes a filmes americanos. Neste pretende-se a geração dinâmica das páginas com a ajuda de um servidor em javascript que responde a pedidos http do tipo GET.
 
 Assim, o servidor deverá ser capaz de responder às seguintes rotas com ajuda de um json server:
 
