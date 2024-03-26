@@ -1,0 +1,26 @@
+extends index
+
+block content
+    .w3-card-4
+        header.w3-container.w3-pale-green
+            h1= titulo 
+        .w3-container 
+            ul.w3-ul.w3-card-4
+                    li 
+                        strong Nome: 
+                        | #{comp.nome}
+                    li 
+                        strong Bio: 
+                        | #{comp.bio}
+                    li 
+                        strong Data de Nascimento: 
+                        | #{comp.dataNasc}
+                    li 
+                        strong Data de Obito: 
+                        | #{comp.dataObito}
+                    li 
+                        strong Periodo: 
+                        | #{comp.periodo}
+        footer.w3-container.w3-pale-green
+            address Gerado por a95458 em #{data}
+            a.w3-button.w3-blue(href='javascript:history.back()') Voltar
